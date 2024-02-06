@@ -4,15 +4,16 @@ function oddAverage(numbers) {
     for (const number of numbers) {
         if (number % 2 === 1) {
             pus.push(number);
+            
         } 
     }
-    let sum = 0;
-    for (const num of pus) {
-        sum = sum + num;
-    }
-    const len = pus.length;
-    const abb = sum / len;
-    return abb;
+    // let sum = 0;
+    // for (const num of pus) {
+    //     sum = sum + num;
+    // }
+    // const len = pus.length;
+    // const abb = sum / len;
+    // return abb;
 }
 
 const OddStuents = [21, 52, 35, 39, 50, 41];
