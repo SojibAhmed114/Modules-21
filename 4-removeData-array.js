@@ -19,19 +19,19 @@
 
 
 //............practice file.........
-const friendMark = [52, 52, 24, 14, 58, 95, 32, 37, 39, 58, 32, 32, 39];
+// const friendMark = [52, 52, 24, 14, 58, 95, 32, 37, 39, 58, 32, 32, 39];
 
-function deleteduplicate(numbers) {
-    const outputs = [];
-    for (const number of numbers) {
-        if (outputs.includes(number) === false) {
-            outputs.push(number)
-        }
-    }
-    return outputs;
-}
+// function deleteduplicate(numbers) {
+//     const outputs = [];
+//     for (const number of numbers) {
+//         if (outputs.includes(number) === false) {
+//             outputs.push(number)
+//         }
+//     }
+//     return outputs;
+// }
 
-console.log(deleteduplicate(friendMark)); 
+// console.log(deleteduplicate(friendMark)); 
 
 
 //..............more practce file............
@@ -48,4 +48,4 @@ function arrayDataRemove(num) {
     return puts;
 }
 
-arrayDataRemove(data);
+console.log(arrayDataRemove(data)); 
